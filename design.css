@@ -1,0 +1,94 @@
+body {
+    font-family:arial, sans-serif;
+    text-align:center;
+    margin:0;
+    color:rgb(49, 5, 49);
+    background:rgb(255, 226, 226);
+}
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:calc(100% -20px);
+    padding:20px;
+    margin:10px;
+    background:linear-gradient(to right, rgb(255, 178, 254), rgb(253, 255, 128));
+    border:2px solid rgba(255, 255, 255, 0.285);
+    border-radius:15px;
+
+}
+ul {
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    gap:20px;
+}
+li {
+    display:flex;
+    
+    margin:10px;
+}
+a {
+    text-decoration:none;
+    font-weight:bold;
+}
+.hero {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+.hero-adjust {
+    margin:0;
+}
+p {
+    font-weight:600;
+}
+.product-btn {
+    display:flex;
+    background:linear-gradient(to right, rgb(255, 168, 168), rgb(182, 182, 255));
+    max-width:170px;
+    width:calc(100% - 15px);
+    padding:15px;
+    border-radius:15px;
+    border:2px solid rgba(255, 255, 255, 0.268);
+    color:rgb(78, 32, 47);
+    font-weight:bold;
+    transition:0.3s all ease-in-out;
+    justify-content:center;
+    align-items:center;
+}
+.product-btn:hover {
+    transform:translateY(-2px);
+    box-shadow:rgba(0, 0, 0, 0.301) 0px 5px 12px 2px;
+}
+.product-btn:active {
+    transform:translateY(2px);
+}
+.story-btn {
+    display:flex;
+    background:rgba(255, 184, 196, 0.482);
+    border:2px solid rgba(0, 0, 0, 0.176);
+    max-width:170px;
+    width:calc(100% - 15px);
+    padding:15px;
+    border-radius:15px;
+    color:rgb(78, 32, 47);
+    font-weight:bold;
+    justify-content:center;
+    align-items:center;
+    transition:all ease-in-out 0.3s;
+}
+.story-btn:hover {
+    transform:translateY(-2px);
+    box-shadow:rgba(0, 0, 0, 0.301) 0px 5px 12px 2px;
+}
+.story-btn:active {
+    transform:translateY(2px);
+}
+.btn-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
